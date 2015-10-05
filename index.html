@@ -30,6 +30,15 @@
 				});
 			});
 </script>
+<script>
+$(window).scroll(function(e) {
+
+    var distanceScrolled = $(this).scrollTop();
+
+    $('.banner').css('-webkit-filter', 'blur('+distanceScrolled/250+'px)');
+
+});
+</script>
 </head>
 <body>
 <!--start-home-->
@@ -84,7 +93,7 @@
 				</div>
 						<div class="scroll-down">
 						 <h4>SCROLL DOWN</h4>
-						<a class="downarrow scroll" href="#about"><span></span></a>
+						<a class="downarrow scroll" href="#about"><span class="hvr-pulse"></span></a>
 						</div>
 				  </div>
 			</div>
