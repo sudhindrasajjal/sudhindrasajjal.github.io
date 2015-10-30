@@ -717,7 +717,7 @@ color:#34495e;
 	display: none;
 	text-decoration: none;
 	position: fixed;
-	bottom: 52px;
+	bottom: 10%;
 	right: 1%;
 	overflow: hidden;
 	z-index: 999;
