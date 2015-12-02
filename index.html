@@ -35,15 +35,14 @@ $(window).scroll(function(e) {
 
     var distanceScrolled = $(this).scrollTop();
 
-    $('.bg-image').css('-webkit-filter', 'blur('+distanceScrolled/250+'px)');
+    $('.banner').css('-webkit-filter', 'blur('+distanceScrolled/250+'px)');
 
 });
 </script>
 </head>
 <body>
-		<!--start-home-->
+<!--start-home-->
 		<div class="banner" id="home">
-			<div class="bg-image">
 			<div class="header-top">
 				<div class="container">
 					<!--top-nav-->
@@ -62,62 +61,64 @@ $(window).scroll(function(e) {
 					</div>
 					<script src="js/menu_jquery.js"></script>
 
-								<!-- script-for-menu -->
+				<!-- script-for-menu -->
 								<script>
 									$("span.menu").click(function(){
 										$(".top-menu ul").slideToggle("slow" , function(){
 										});
 									});
 								</script>
-				 	<div class="clearfix"></div>
-		    	</div>
-		  	</div>
-			<!--banner-->
-			<div class="container">
-			      <!-- script-for-menu -->
-					  <div class="banner-info">
-							<div class="logo">
-								<a href="index.html"><h1>Hi! I'm Sudhindra Sajjal</h1></a>
-							</div>
-							<p> I'm a Computer Science undergrad and UI/UX Developer from BITS Goa</p>
-							<div class = "container">
-								<div class = "center lol">
-									&nbsp;&nbsp;<div class = "iconclass"><a target = "_blank" href = "https://www.facebook.com/sudhindra.sajjal"><i class="smicon fa fa-facebook-square fa-3x"></i></a></div>&nbsp;&nbsp;
-									&nbsp;&nbsp;<div class = "iconclass"><a target = "_blank" href = "https://twitter.com/sudhindra_01"><i class="smicon fa fa-twitter-square fa-3x"></i></a></div>&nbsp;&nbsp;
-									&nbsp;&nbsp;<div class = "iconclass"><a target = "_blank" href = "https://in.linkedin.com/pub/sudhindra-sajjal/7b/815/126"><i class="smicon fa fa-linkedin-square fa-3x"></i></a></div>&nbsp;&nbsp;
-									&nbsp;&nbsp;<div class = "iconclass"><a target = "_blank" href = "https://github.com/sudhindrasajjal"><i class="smicon fa fa-github-square fa-3x"></i></a></div>&nbsp;&nbsp;
-									&nbsp;&nbsp;<div class = "iconclass"><a href = "mailto:sudhindrasajjal@gmail.com"><i class="smicon fa fa-envelope-square fa-3x"></i></a></div>&nbsp;&nbsp;
-								</div>
-							</div>
-							<div class="scroll-down">
-							 	<h4>SCROLL DOWN</h4>
-								<a class="downarrow scroll" href="#about"><span class="hvr-pulse"></span></a>
-							</div>
-					    </div>
+								<!-- script-for-menu -->
+
+				 <div class="clearfix"></div>
+			<!-- script-for-menu -->
+		    </div>
+		  </div>
+		<!--banner-->
+		<div class="container">
+		      <!-- script-for-menu -->
+				  <div class="banner-info">
+						 <div class="logo">
+							  <a href="index.html"><h1>Hi! I'm Sudhindra Sajjal</h1></a>
+						  </div>
+						<p> I'm a Computer Science undergrad and UI/UX Developer from BITS Goa</p>
+						<div class = "container">
+					<div class = "center lol">
+						&nbsp;&nbsp;<div class = "iconclass"><a target = "_blank" href = "https://www.facebook.com/sudhindra.sajjal"><i class="smicon fa fa-facebook-square fa-3x"></i></a></div>&nbsp;&nbsp;
+						&nbsp;&nbsp;<div class = "iconclass"><a target = "_blank" href = "https://twitter.com/sudhindra_01"><i class="smicon fa fa-twitter-square fa-3x"></i></a></div>&nbsp;&nbsp;
+						&nbsp;&nbsp;<div class = "iconclass"><a target = "_blank" href = "https://in.linkedin.com/pub/sudhindra-sajjal/7b/815/126"><i class="smicon fa fa-linkedin-square fa-3x"></i></a></div>&nbsp;&nbsp;
+						&nbsp;&nbsp;<div class = "iconclass"><a target = "_blank" href = "https://github.com/sudhindrasajjal"><i class="smicon fa fa-github-square fa-3x"></i></a></div>&nbsp;&nbsp;
+						&nbsp;&nbsp;<div class = "iconclass"><a href = "mailto:sudhindrasajjal@gmail.com"><i class="smicon fa fa-envelope-square fa-3x"></i></a></div>&nbsp;&nbsp;
 					</div>
 				</div>
-			</div>
-			<!-- about -->
-			<div id="about" class="about">
-				<div class="container">
-					<h3 class= "litestfont">About Me</h3>
-					<div class="about-info">
-						<center><i class="headingicon fa fa-user fa-2x"></i></center>
-						<h4>I am Sudhindra Sajjal and I live in Goa.</h4>
-						<p>I am currently enrolled into an undergraduate program at the BITS Pilani, K.K. Birla Goa Campus. My major field of study is B.E.(Hons.) Computer Science. My interests include Web Designing and Graphic Designing.
-						Also I'm proficient in C,C++,Java,J2EE, SQL, JS, HTML5, CSS3, JQuery and Python. The environment at BITS has facilitated the enhancement and growth of my technical skills and has also helped me grow as a better individual. I hope to keep this up in the future and seek to learn even more during my stay at BITS.</p>
-					</div>
-			   		<div class="clearfix"> </div>
-				</div>
+						<div class="scroll-down">
+						 <h4>SCROLL DOWN</h4>
+						<a class="downarrow scroll" href="#about"><span class="hvr-pulse"></span></a>
+						</div>
+				  </div>
 			</div>
 		</div>
+<!-- about -->
+<div id="about" class="about">
+	<div class="container">
+		<div class="about-info">
+				<h3>About Me</h3>
+				<center><i class="headingicon fa fa-user fa-2x"></i></center>
+				<h4>I am Sudhindra Sajjal and I live in Goa.</h4>
+				<p>I am currently enrolled into an undergraduate program at the BITS Pilani, K.K. Birla Goa Campus. My major field of study is B.E.(Hons.) Computer Science. My interests include Web Designing and Graphic Designing.
+				 Also I'm proficient in C,C++,Java,J2EE, SQL, JS, HTML5, CSS3, JQuery and Python. The environment at BITS has facilitated the enhancement and growth of my technical skills and has also helped me grow as a better individual. I hope to keep this up in the future and seek to learn even more during my stay at BITS.</p>
+		</div>
+		   	<div class="clearfix"> </div>
+		</div>
+	</div>
+</div>
 <!-- //about -->
 <!-- my skills -->
 <a name = "projects"></a>
 <div class = "container" id="projects">
 <br><br><br><br>
 <div class = "row center">
-	<h3 class = "litestfont">Projects</h3>
+	<h3 class = "litestfont">Projects</h4>
 	<center><i class="headingicon fa fa-code fa-3x"></i></center>
 	<br><br>
 	<div>
@@ -246,8 +247,8 @@ $(window).scroll(function(e) {
 <!-- //my skills -->
 <div id="about1" class="about">
 	<div class="container">
-		<h3 class="litestfont">Skills</h3>
-			<div class="about-info">	
+		<div class="about-info">
+				<h3 class="litestfont">Skills</h3>
 				<center><i class="headingicon fa fa-briefcase fa-2x"></i></center>
 				<h4>Interests</h4>
 				<p>My interests include Web Designing and Graphic Designing. Also I'm proficient in C,C++,Java,J2EE, SQL, JS, HTML5, CSS3, JQuery, Python, Verilog and Assembly.</p>
