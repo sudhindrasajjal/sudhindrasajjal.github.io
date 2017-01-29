@@ -729,7 +729,7 @@ a.view:hover{
 .footer{
 	
 	text-align:center;
-	padding:2em 0em;
+	padding: 0em 0em;
 }
 .footer ul li{
 	display:inline-block;
