@@ -4,7 +4,6 @@ License: Creative Commons Attribution 3.0 Unported
 License URL: http://creativecommons.org/licenses/by/3.0/
 --*/
 body{
-	font-family: 'Raleway', sans-serif;
 }
 body a{
     transition:0.5s all;
@@ -230,25 +229,31 @@ i.msg:hover{
 	text-align:center;
 }
 .banner-info h1{
+	font-family: 'Raleway', sans-serif;
 	color:#fff;
 	font-size:3em;
 	font-weight:800;
 	margin:1em 0em;
+	letter-spacing: 2.5px;
 }
 .banner-info p{
+	font-family: 'Lato', sans-serif;
 	color:#fff;
 	font-size:1.5em;
-	font-weight:400;
+	font-weight:300;
 	margin:1em 0em;
+	letter-spacing: 2pt;
 }
 
 .lol {
-  margin: 35.5%;
+  float: center;
+  /*margin: 20.5%;*/
   text-align: center;
   display: inline;
 }
 
 .iconclass {
+	padding: 0 15px 0 0;
   margin-top: 5%;
   display: inline-block;
 }
@@ -287,16 +292,7 @@ a.learn:hover{
 	background:#E74C3C;
 	border:1px solid #E74C3C;
 }
-.branding {
-	text-align:center;
-	padding:5em 0em;
-	border-bottom:1px solid #666666;
-}
-.branding h4{
-	font-size:1.8em;
-	font-weight:400;
-	color:#666666;
-}
+
 i.mobile {
 	width: 100px;
 	height: 100px;
@@ -356,6 +352,7 @@ i.apple {
 	margin:5em 0em;
 }
 .b-design h3{
+	font-family: 'Raleway', sans-serif;
 	font-size:2.5em;
 	font-weight:400;
 	color:#666666;
@@ -363,6 +360,7 @@ i.apple {
 	text-align:left;
 }
 .b-design p{
+	font-family: 'Lato', sans-serif;
 	font-size:1.2em;
 	font-weight:400;
 	color:#666666;
@@ -371,6 +369,10 @@ i.apple {
 }
 .dsg-1{
 	text-align:left;
+}
+
+.dsg-2{
+	margin-top: 3%;
 }
 a.more{
 	background: #E74C3C;
@@ -405,6 +407,7 @@ a.more:hover{
 }
 
 .about-me h2{
+	font-family: 'Raleway', sans-serif;
 	font-size:4.5em;
 	font-weight:600;
 	color:#ecf0f1;
@@ -412,12 +415,14 @@ a.more:hover{
 	text-shadow: 2px 2px 5px #2c3e50;
 }
 .about-me p{
+	font-family: 'Lato', sans-serif;
 	font-size:1.2em;
 	font-weight:300;
 	color:#fff;
 	margin:1em 0em;
 }
 .about-me h5{
+	font-family: 'Raleway', sans-serif;
 	font-size:1.5em;
 	font-weight:500;
 	color:#fff;
@@ -449,93 +454,7 @@ i.social{
 .eil{
 	text-align:right;
 }
-.location h6{
-	font-size:1.3em;
-	font-weight:800;
-	color:#fff;
-	margin:1em 0em;
-}
-.location span{
-	font-size:0.875em;
-	font-weight:400;
-	color:#fff;
-}
-.location a{
-	font-size:0.875em;
-	font-weight:400;
-	color:#fff;
-}
-.location a:hover{
-	color:#E74C3C;
-}
-/*-- portfolio --*/
-.portfolio {
-	margin: 2em 0em 0em;
-	position:relative;
-}
-.portfolio h2{
-	font-size:3em;
-	font-weight:800;
-	color:#666666;
-	margin:1em 0em;
-	text-align:center;
-}
-.portfolio  p{
-	color: #666666;
-	font-weight: 400;
-	font-size: 1.2em;
-	text-align:center;
-}
-#portfoliolist .portfolio {
-	-webkit-box-sizing: border-box;
-	-moz-box-sizing: border-box;
-	-o-box-sizing: border-box;
-	width: 25%;
-	display:none;
-	float:left;
-	overflow:hidden;
-	margin: 0;
-}
-div#portfoliolist {
-	padding: 0px 0px;
-}	
-.portfolio-wrapper {
-	overflow:hidden;
-	position: relative !important;
-	cursor:pointer;
-}
-.portfolio img {
-	width:100%;
-	transition: all 300ms!important;
-	-webkit-transition: all 300ms!important;
-	-moz-transition: all 300ms!important;
-}
-.portfolio .label {
-	position: absolute;
-	width: 100%;
-	height:40px;
-	bottom:-40px;
-}
-.portfolio .label-bg {
-	background: #22B4B8;
-	width: 100%;
-	height:100%;
-	position: absolute;
-	top:0;
-	left:0;
-}
-.portfolio .label-text {
-	color:#fff;
-	position: relative;
-	z-index:500;
-	padding:5px 8px;
-}
-.portfolio .text-category {
-	display:block;
-	font-size:9px;
-	font-size: 12px;
-	text-transform:uppercase;
-}
+
 /* Self Clearing Goodness */
 .container:after { content: "\0020"; display: block; height: 0; clear: both; visibility: hidden; }
 .clearfix:before,
@@ -1427,6 +1346,7 @@ nav a:focus {
 }
 
 .top-menu ul li a{
+	font-family: 'Raleway', sans-serif;
    text-decoration: none;
   color: #fff;
   font-size: 0.9em;
@@ -1440,6 +1360,7 @@ nav a:focus {
 }
 
 .work-item p{
+	font-family: 'Lato', sans-serif;
 	font-weight: 400;
 }
 
@@ -1456,6 +1377,7 @@ nav a:focus {
 }
 
 .projects h2{
+	font-family: 'Raleway', sans-serif;
 	font-size:4.5em;
 	font-weight:600;
 	color:#ecf0f1;
@@ -1463,12 +1385,14 @@ nav a:focus {
 	text-shadow: 2px 2px 5px #2c3e50;
 }
 .projects p{
+	font-family: 'Lato', sans-serif;
 	font-size:1.2em;
 	font-weight:300;
 	color:#fff;
 	margin:1em 0em;
 }
 .projects h5{
+	font-family: 'Raleway', sans-serif;
 	font-size:1.5em;
 	font-weight:500;
 	color:#fff;
@@ -1488,6 +1412,7 @@ nav a:focus {
 }
 
 .personal h2{
+	font-family: 'Raleway', sans-serif;
 	font-size:4.5em;
 	font-weight:600;
 	color:#ecf0f1;
@@ -1495,12 +1420,14 @@ nav a:focus {
 	text-shadow: 2px 2px 5px #2c3e50;
 }
 .personal p{
+	font-family: 'Lato', sans-serif;
 	font-size:1.2em;
 	font-weight:300;
 	color:#fff;
 	margin:1em 0em;
 }
 .personal h5{
+	font-family: 'Raleway', sans-serif;
 	font-size:1.5em;
 	font-weight:500;
 	color:#fff;
@@ -1520,6 +1447,7 @@ nav a:focus {
 }
 
 .resume h2{
+	font-family: 'Raleway', sans-serif;
 	font-size:4.5em;
 	font-weight:600;
 	color:#ecf0f1;
@@ -1527,12 +1455,14 @@ nav a:focus {
 	text-shadow: 2px 2px 5px #2c3e50;
 }
 .resume p{
+	font-family: 'Lato', sans-serif;
 	font-size:1.2em;
 	font-weight:300;
 	color:#fff;
 	margin:1em 0em;
 }
 .resume h5{
+	font-family: 'Raleway', sans-serif;
 	font-size:1.5em;
 	font-weight:500;
 	color:#fff;
