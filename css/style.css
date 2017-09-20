@@ -169,23 +169,23 @@ i.msg:hover{
 	background: url(../images/img-sprite.png)no-repeat -266px -150px;
 }
 .banner-info{
-	margin-top: 29%;
+	margin-top: 28%;
 	text-align:center;
 	float: center;
-	margin-bottom: 28%;
+	margin-bottom: 20%;
 }
 .banner-info h1{
 	font-family: 'Raleway', sans-serif;
 	color:#fff;
 	font-size:3em;
-	font-weight:800;
+	font-weight:400;
 	margin:1em 0em;
 	letter-spacing: 2.5px;
 }
 .banner-info p{
 	font-family: 'Lato', sans-serif;
 	color:#fff;
-	font-size:1.5em;
+	font-size:1.6em;
 	font-weight:300;
 	margin:1em 0em;
 	letter-spacing: 2pt;
