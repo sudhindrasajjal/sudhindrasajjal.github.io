@@ -1,8 +1,3 @@
-/*Author: W3layouts
-Author URL: http://w3layouts.com
-License: Creative Commons Attribution 3.0 Unported
-License URL: http://creativecommons.org/licenses/by/3.0/
---*/
 body{
 }
 body a{
@@ -305,13 +300,13 @@ i.apple {
 	font-size:3em;
 	font-weight:400;
 	color:#666666;
-	margin:1em 0em;
+	margin:0.5em 0em;
 	text-align:left;
 }
 .b-design p{
-	font-family: 'Lato', sans-serif;
-	font-size:1.2em;
-	font-weight:400;
+	font-family: 'Raleway', sans-serif;
+	font-size:1.3em;
+	font-weight:300;
 	color:#666666;
 	margin:1em 0em;
 	text-align:left;
@@ -321,7 +316,7 @@ i.apple {
 }
 
 .dsg-2{
-	margin-top: 3%;
+	margin-top: 5%;
 }
 a.more{
 	background: #2980B9;
@@ -499,7 +494,7 @@ i.social{
 }
 /*-- portfolio --*/
 .dan{
-	background: url(../images/banner3.jpg) no-repeat center fixed;
+	background: url(../images/banner5.jpg) no-repeat center fixed;
 	background-size: cover;
 	-webkit-background-size: cover;
 	-moz-background-size: cover;
@@ -1308,13 +1303,22 @@ nav a:focus {
 	  color: #fff;
 }
 
-.work-item p{
+.work-item p {
 	font-family: 'Lato', sans-serif;
-	font-weight: 400;
+	font-weight: 300;
+	color: #ccc;
 }
 
+/*.work-item h3 {
+	color: #ddd;
+}
+
+.work-item a {
+	color: #eee;
+}*/
+
 .projects{
-	background: url(../images/banner2.png) no-repeat center fixed;
+	background: url(../images/banner4.jpg) no-repeat center fixed;
 	background-size: cover;
 	-webkit-background-size: cover;
 	-moz-background-size: cover;
@@ -1349,7 +1353,7 @@ nav a:focus {
 }
 
 .personal{
-	background: url(../images/banner3.jpg) no-repeat center fixed;
+	background: url(../images/banner5.jpg) no-repeat center fixed;
 	background-size: cover;
 	-webkit-background-size: cover;
 	-moz-background-size: cover;
@@ -1427,6 +1431,10 @@ nav a:focus {
 
 .resume a{
 	margin: -120px 0 100px 0;
+}
+
+.lead p{
+	color: #383838;
 }
 
 .grow { transition: all .2s ease-in-out; }
