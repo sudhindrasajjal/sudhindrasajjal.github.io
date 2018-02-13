@@ -178,6 +178,19 @@ i.msg:hover{
 	margin:1em 0em;
 	letter-spacing: 2.5px;
 }
+
+.banner-info h1 a i {
+	font-size: 0.75em;
+	color: #fff;
+	opacity: 0.75;
+}
+
+.banner-info h1 a i:hover {
+	font-size: 0.75em;
+	color: #fff;
+	opacity: 1;
+}
+
 .banner-info p{
 	font-family: 'Lato', sans-serif;
 	color:#fff;

@@ -88,6 +88,28 @@
 	ga('create', 'UA-70124316-2', 'auto');
 	ga('send', 'pageview');
 </script>
+<script type="text/javascript">
+$(function(){
+    if ('speechSynthesis' in window) {
+        $('#speak').click(function(){
+	        var text = "suedheendhra sahjal";
+	        var msg = new SpeechSynthesisUtterance(text);
+	        msg.voice = speechSynthesis.getVoices().filter(function(voice) { return voice.name == 'Ava'; })[0];
+	        msg.rate = 0.9;
+	        msg.pitch = 1;
+	        // msg.text = text;
+
+	        msg.onend = function(e) {
+	        	console.log('Finished in ' + event.elapsedTime + ' seconds.');
+	        };
+
+	        speechSynthesis.speak(msg);
+        })
+  	} else {
+    
+  	}
+});
+</script>
 </head>
 <body>
 <!-- header -->
@@ -123,7 +145,7 @@
 				<img src="images/me2.jpg" style="border-color:#eee;" class="img-circle center-block" alt="" />
 			</div>
 			<div class="banner-info">
-				<h1>Hey! I'm <span>Sudhindra Sajjal</span></h1>
+				<h1>Hey! I'm <span>Sudhindra Sajjal</span> <a href="#" id="speak"><i class="fa fa-volume-up" aria-hidden="true"></i></a></h1>
 				<p> I'm a techie &amp; a caffeine to code machine from Bangalore, India.</p>
 				<div class = "center lol">
 					&nbsp;&nbsp;<div class = "iconclass"><a target = "_blank" href = "https://www.facebook.com/sudhindra.sajjal"><i class="smicon fa fa-facebook-f fa-3x whiteiconcolor"></i></a></div>&nbsp;&nbsp;
