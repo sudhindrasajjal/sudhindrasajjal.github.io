@@ -1,4 +1,5 @@
 body{
+	transition: background-color .5s;
 }
 body a{
     transition:0.5s all;
@@ -742,6 +743,9 @@ i.accent {
 	background: url("../images/arrow1.jpg") no-repeat 0px 0px;
 } 
 /*--responsive design--*/
+@media (max-width:10000px){	
+.menu-button {visibility: hidden;}
+}
 @media (max-width:1280px){	
 .mobi label {
 	width: 135px;
@@ -776,6 +780,7 @@ i.acent {
 i.accent {
 	left: 41em;
 }
+.menu-button {visibility: hidden;}
 }
 /*--responsive design--*/
 @media (max-width:1024px){	
@@ -817,6 +822,7 @@ i.accent {
 .contact h3 {
 	font-size: 2.2em;
 }
+.menu-button {visibility: hidden;}
 }
 /*--responsive design--*/
 @media (max-width:768px){	
@@ -949,6 +955,12 @@ i.accent {
 	width: 262px;
 	left: 229px;
 }
+.top-menu{
+	display: none;
+}
+.menu-button {
+	visibility: visible;
+}
 }
 /*--responsive design--*/
 @media (max-width:640px){	
@@ -1030,6 +1042,12 @@ padding: 1em 15em;
 .mobi label {
 	width: 200px;
 	left: 196px;
+}
+.top-menu {
+	display: none;
+}
+.menu-button {
+	visibility: visible;
 }
 }
 /*--responsive design--*/
@@ -1129,6 +1147,12 @@ i.accent {
 a.view {
 	position: relative;
 	margin: 0 0 1em;
+}
+.top-menu {
+	display: none;
+}
+.menu-button {
+	visibility: visible;
 }
 }
 /*--responsive design--*/
@@ -1266,6 +1290,12 @@ a.boxclose {
 }
 #loginForm {
 	width: 273px;
+}
+.top-menu {
+	display: none;
+}
+.menu-button {
+	visibility: visible;
 }
 }
 
@@ -1455,3 +1485,52 @@ nav a:focus {
 .grow { transition: all .2s ease-in-out; }
 .grow:hover { transform: scale(1.1); 
 	border: 3px solid #34495e}
+
+.sidenav {
+    height: 100%;
+    width: 0;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    left: 0;
+    background-color: #111;
+    overflow-x: hidden;
+    transition: 0.5s;
+    padding-top: 60px;
+}
+
+.sidenav a {
+    padding: 8px 8px 8px 32px;
+    text-decoration: none;
+    font-size: 25px;
+    color: #818181;
+    display: block;
+    transition: 0.3s;
+}
+
+.sidenav a:hover {
+    color: #f1f1f1;
+}
+
+.sidenav .closebtn {
+    position: absolute;
+    top: 0;
+    right: 25px;
+    font-size: 36px;
+    margin-left: 50px;
+}
+
+.menu-button {
+	font-size:30px;
+	cursor:pointer;
+	position: fixed;
+	margin-top: 3%;
+	margin-left: 5%;
+	/*opacity: 0;*/
+}
+
+@media screen and (max-height: 450px) {
+  .sidenav {padding-top: 15px;}
+  .sidenav a {font-size: 18px;}
+  .menu-button { opacity: 1;}
+}
