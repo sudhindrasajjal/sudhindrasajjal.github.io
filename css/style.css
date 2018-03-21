@@ -813,9 +813,9 @@ i.accent {
 .b-design p {
 	font-size: 1.1em;
 }
-.about-me h2 {
+/*.about-me h2 {
 	font-size: 2.2em;
-}
+}*/
 .portfolio h2 {
 	font-size: 2.2em;
 }
@@ -907,9 +907,9 @@ i.accent {
 .grid_box .zoom-icon {
 	height: 113px;
 }
-.about-me h2 {
+/*.about-me h2 {
 	font-size: 2em;
-}
+}*/
 .portfolio h2 {
 	font-size: 2em;
 }
@@ -991,12 +991,12 @@ a.learn {
 a.more {
 	font-size: 17px;
 }
-.about-me h2 {
+/*.about-me h2 {
 	font-size: 1.8em;
 }
 .about-me p {
 	font-size: 1em;
-}
+}*/
 i.acent {
 	left: 18.5em;
 	top:50px;
@@ -1075,20 +1075,20 @@ a.learn {
 a.more {
 	font-size: 14px;
 }
-.about-me h2 {
+/*.about-me h2 {
 	font-size: 1.5em;
 	margin: 0em 0em 1.5em;
 }
 .about-me {
 	padding: 1.5em 0em 0em;
-}
+}*/
 i.acent {
 	left: 12.9em;
 	top: 41px;
 }
-.about-me h5 {
+/*.about-me h5 {
 	font-size: 1.3em;
-}
+}*/
 .portfolio h2 {
 	font-size: 1.5em;
 	margin: 0em 0em 1.5em;
@@ -1185,19 +1185,19 @@ a.learn {
 a.more {
 	font-size: 12px;
 }
-.about-me h2 {
+/*.about-me h2 {
 	font-size: 1.2em;
-}
+}*/
 i.acent {
 	left: 7em;
 	top: 38px;
 }
-.about-me p {
+/*.about-me p {
 	font-size: 0.875em;
 }
 .about-me h5 {
 	font-size: 1.1em;
-}
+}*/
 .location h6 {
 	font-size: 0.950em;
 }
@@ -1497,36 +1497,44 @@ nav a:focus {
     overflow-x: hidden;
     transition: 0.5s;
     padding-top: 60px;
+    z-index: 1000;
 }
 
 .sidenav a {
     padding: 8px 8px 8px 32px;
     text-decoration: none;
-    font-size: 25px;
+    font-size: 1em;
     color: #818181;
     display: block;
     transition: 0.3s;
 }
 
 .sidenav a:hover {
-    color: #f1f1f1;
+    color: #ccc;
 }
 
 .sidenav .closebtn {
     position: absolute;
     top: 0;
     right: 25px;
-    font-size: 36px;
+    font-size: 1.5em;
     margin-left: 50px;
 }
 
 .menu-button {
-	font-size:30px;
+	font-size:1.5em;
 	cursor:pointer;
 	position: fixed;
 	margin-top: 3%;
 	margin-left: 5%;
-	/*opacity: 0;*/
+	color: #f1f1f1;
+	font-weight: 200;
+	text-shadow: 1px 1px 15px rgba(150, 150, 150, 0.6);
+	z-index: 999;
+}
+
+.menu-button:hover {
+	opacity: 0.9;
 }
 
 @media screen and (max-height: 450px) {
