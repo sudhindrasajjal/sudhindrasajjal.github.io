@@ -1527,9 +1527,10 @@ nav a:focus {
 	position: fixed;
 	margin-top: 3%;
 	margin-left: 5%;
-	color: #f1f1f1;
+	color: #fff;
+	opacity: 0.7;
 	font-weight: 200;
-	text-shadow: 1px 1px 15px rgba(150, 150, 150, 0.6);
+	text-shadow: 1px 1px 15px rgba(150, 150, 150, 0.5);
 	z-index: 999;
 }
 
