@@ -1,517 +1,147 @@
-<!DOCTYPE HTML>
-<!--
-                                  ..--------------------------..
-                                  ||      Roses are red       ||
-          _  .-.                  ||     Violets are blue     ||
-         ( \ | |        .-""-.    ||  If you're reading this  ||
-          \ \| |       / _/'"\    ||     I'm sorry for you    ||
-          _\ __|_      (c   '\'   ||__________________________||
-         ( '-(__ \      \    =    '--------. .-----------------'
-         ('-.)`  /      _) --'             | |
-          '-<_. <    .-' <\_/>-.           | |
-               \ \  /      :  , \          | |
-                \ \/ /|    :  |\ \_________|(_\
-                 \__/ |    :  | \__________|(_|
-                      \    :  /            |(_/
-                       |=cool=
-                       |     |
-                       |  _  |
-                       |  |  |
-                       |  |  |
-                       |_ |  )
-                       |  |  |
-                       |  |  |
-                       |__|__|_
-                       | ||____)
-                       \_/
--->
-<html>
+<!DOCTYPE html>
+<html lang="en">
 <head>
-<title>Sudhindra Sajjal</title>
-<link rel="icon" href="images/favicon.ico">
-<link href="css/bootstrap.css" rel="stylesheet" type="text/css" media="all">
-<link href="css/style.css" rel="stylesheet" type="text/css" media="all">
-<link href="css/menu.css" rel="stylesheet" type="text/css" media="all">
-<link href="css/aos.css" rel="stylesheet" type="text/css" media="all">
-<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
-<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
-<link href='https://fonts.googleapis.com/css?family=Raleway:400,300,200,500,600,700,800,900' rel='stylesheet' type='text/css'>
-<link href="https://fonts.googleapis.com/css?family=Lato:400,300,200" rel="stylesheet">
-<link rel="stylesheet" href="css/flexslider.css" type="text/css" media="screen" />
-<script src="js/jquery.min.js"></script>
-<script type='text/javascript' src="js/jquery-1.11.1.min.js"></script>
-<script type='text/javascript' src="js/aos.js"></script>
-<script src="js/menu_jquery.js"></script>
-<link rel="stylesheet" href="css/swipebox.css">
-<link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
-<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
- <!-- Light Box -->
-    <script src="js/jquery.swipebox.min.js"></script>
-    <script type="text/javascript">
-		jQuery(function($) {
-			$(".swipebox").swipebox();
-		});
-	</script>
-    <!-- Eng Light Box -->
-	<script type="text/javascript" src="js/move-top.js"></script>
-       <script type="text/javascript" src="js/easing.js"></script>
-		<script type="text/javascript">
-			jQuery(document).ready(function($) {
-				$(".scroll").click(function(event){
-					event.preventDefault();
-					$('html,body').animate({scrollTop:$(this.hash).offset().top},1200);
-				});
-			});
-		</script>
-		<script type="text/javascript">
-		$(document).ready(function() {
+	
+	<!-- Basic -->
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+	<title>Sudhindra Sajjal</title>
+	<meta name="description" content="">
+	<meta name="keywords" content="">
+	
+	<!-- Mobile Specific Metas -->
+	<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1" />
+	
+	<!-- Load Fonts -->
+	<link href='https://fonts.googleapis.com/css?family=Roboto+Mono:400,100,300italic,300,100italic,400italic,500,500italic,700,700italic&amp;subset=latin,cyrillic' rel='stylesheet'>
+	
+	<!-- CSS -->
+	<link rel="stylesheet" href="css/glitche-basic.css" />
+	<link rel="stylesheet" href="css/glitche-layout.css" />
+	<link rel="stylesheet" href="css/ionicons.css" />
+	<link rel="stylesheet" href="css/magnific-popup.css" />
+	<link rel="stylesheet" href="css/animate.css" />
+	<link rel="stylesheet" href="css/green.css" />
+	<link rel="stylesheet" href="css/dark.css" />
 
-				var defaults = {
-				containerID: 'toTop', // fading element id
-				containerHoverID: 'toTopHover', // fading element hover id
-				scrollSpeed: 1200,
-				easingType: 'linear'
-				};
-
-		$().UItoTop({ easingType: 'easeOutQuart' });
-});
-</script>
-<script>
-	AOS.init();
-</script>
-<script>
-	(function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
-	(i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
-	m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
-	})(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
-
-	ga('create', 'UA-70124316-2', 'auto');
-	ga('send', 'pageview');
-</script>
-<script type="text/javascript">
-$(function(){
-    if ('speechSynthesis' in window) {
-        $('#speak').click(function(){
-	        var text = "suedhheendhra sahjal";
-	        var msg = new SpeechSynthesisUtterance(text);
-	        msg.voice = speechSynthesis.getVoices().filter(function(voice) { return voice.name == 'Ava'; })[0];
-	        msg.rate = 0.9;
-	        msg.pitch = 1;
-	        // msg.text = text;
-
-	        msg.onend = function(e) {
-	        	console.log('Finished in ' + event.elapsedTime + ' seconds.');
-	        };
-
-	        speechSynthesis.speak(msg);
-        })
-  	} else {
-    
-  	}
-});
-</script>
-<script>
-	function openNav() {
-	    document.getElementById("mySidenav").style.width = "250px";
-	    document.body.style.backgroundColor = "rgba(0,0,0,0.4)";
-	}
-
-	function closeNav() {
-	    document.getElementById("mySidenav").style.width = "0";
-	    document.body.style.backgroundColor = "white";
-	}
-</script>
+	
+	[if lt IE 9]>
+	<script src="http://css3-mediaqueries-js.googlecode.com/svn/trunk/css3-mediaqueries.js"></script>
+	<script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script>
+	<![endif]
+	
+	<!-- Favicons -->
+	<link rel="shortcut icon" href="images/favicons/favicon.ico">
+	
 </head>
-<body>
-<!-- header -->
-	<span class="menu-button" onclick="openNav()"><i class="smicon fa fa-bars fa-1x "></i></span>
-	<div class="banner">
-		<div id='stars'></div>
-		<div id='stars2'></div>
-		<div id='stars3'></div>
-		<div class="container">
-			<div class="header">
-				<div class="container">
-					<!--top-nav-->
-					<span class="menu"> </span>
-					<div class="top-menu">
-						<nav>
-							<ul>
-								<li><a class="active scroll" href="#home" data-hover="Home">Home</a></li>
-								<li><a class="scroll" href="#about" data-hover="About">Status Quo</a></li>
-								<li><a class="scroll" href="#experience" data-hover="experience">Work</a></li>
-								<li><a class="scroll" href="#projects" data-hover="Projects">Projects</a></li>
-								<li><a class="scroll" href="#personal" data-hover="Personal">About</a></li>
-								<li><a class="scroll" href="#resume" data-hover="resume">Resumé</a></li>
-								<li><a href="http://medium.com/@sudhindrasajjal" target="_blank" >Blog</a></li>
-								<div class="clearfix"></div>
-							</ul>
-						</nav>
-					</div>
-					<div id="mySidenav" class="sidenav">
-  						<a href="javascript:void(0)" class="closebtn" onclick="closeNav()"><i class="smicon fa fa-times fa-1x whiteiconcolor"></i></a>
-  						<a style="font-size: 1.2em; color: #ccc;">Sudhindra Sajjal</a>
-  						<a class="active scroll" href="#home" data-hover="Home"><i class="smicon fa fa-home fa-1x "></i>&nbsp;&nbsp;Home</a>
-						<a class="scroll" href="#about" data-hover="About"><i class="smicon fa fa-user fa-1x "></i>&nbsp;&nbsp;Status Quo</a>
-						<a class="scroll" href="#experience" data-hover="experience"><i class="smicon fa fa-briefcase fa-1x "></i>&nbsp;&nbsp;Work</a>
-						<a class="scroll" href="#projects" data-hover="Projects"><i class="smicon fa fa-code fa-1x "></i>&nbsp;&nbsp;Projects</a>
-						<a class="scroll" href="#personal" data-hover="Personal"><i class="smicon fa fa-rocket fa-1x "></i>&nbsp;&nbsp;About</a>
-						<a class="scroll" href="#resume" data-hover="resume"><i class="smicon fa fa-file fa-1x "></i>&nbsp;&nbsp;Resumé</a>
-						<a href="http://medium.com/@sudhindrasajjal" target="_blank" ><i class="smicon fa fa-pencil fa-1x "></i>&nbsp;&nbsp;Blog</a>
-					</div>
-					<script src="js/menu_jquery.js"></script>
-				</div>
-				<div class="clearfix"></div>
-				<!-- script-for-menu -->
-			</div>
-			<div class="col-md-12">
-				<img src="images/me2.png" style="border-color:#eee;" class="img-circle center-block" alt="" />
-			</div>
-			<div class="banner-info">
-				<h1>Hey! I'm <span>Sudhindra Sajjal</span> <a id="speak"><i class="fa fa-volume-up" aria-hidden="true"></i></a></h1>
-				<p> I'm an SRE &amp; a caffeine to code machine living in Munich, Germany.</p>
-				<div class = "center lol">
-					&nbsp;&nbsp;<div class = "iconclass"><a target = "_blank" href = "https://www.instagram.com/sudhindrasajjal/"><i class="smicon fa fa-instagram fa-3x whiteiconcolor"></i></a></div>&nbsp;&nbsp;
-					&nbsp;&nbsp;<div class = "iconclass"><a target = "_blank" href = "https://twitter.com/The_Lazy_Goan"><i class="smicon fa fa-twitter fa-3x whiteiconcolor"></i></a></div>&nbsp;&nbsp;
-					&nbsp;&nbsp;<div class = "iconclass"><a target = "_blank" href = "https://www.linkedin.com/in/sudhindrasajjal"><i class="smicon fa fa-linkedin fa-3x whiteiconcolor"></i></a></div>&nbsp;&nbsp;
-					&nbsp;&nbsp;<div class = "iconclass"><a target = "_blank" href = "https://github.com/sudhindrasajjal"><i class="smicon fa fa-github fa-3x whiteiconcolor"></i></a></div>&nbsp;&nbsp;
-					&nbsp;&nbsp;<div class = "iconclass"><a target = "_blank" href = "http://medium.com/@sudhindrasajjal"><i class="smicon fa fa-medium fa-3x whiteiconcolor"></i></a></div>&nbsp;&nbsp;
-					&nbsp;&nbsp;<div class = "iconclass"><a href = "mailto:sudhindrasajjal@gmail.com"><i class="smicon fa fa-envelope fa-3x whiteiconcolor"></i></a></div>&nbsp;&nbsp;
-				</div>
-			</div>
-		</div>
-	</div>
-	<div class="b-design" id="about">
-		<div class="container">
-				<div class="col-md-6 dsg-1">
-					<h3>Status Quo</h3>
-					<p>I am a <a href="https://landing.google.com/sre/" target="_blank">Site Reliability Engineer</a> at <a href="https://www.wirecard.com/" target="_blank">Wirecard</a> in Munich, Germany. I work in the <a href="https://www.worldpay.com/en-us/insights-hub/article/the-credit-card-lifecycle-explained/" target="_blank">Issuing</a> payments team. </p>
-					<p>I've completed my Bachelors Degree in <a href="https://en.wikipedia.org/wiki/Computer_science" target="_blank">Computer Science</a> at <a href="http://www.bits-pilani.ac.in/goa/" target="_blank">BITS-Pilani Goa</a>, India.</p>
-					<p>I've recently started blogging about tech &amp; stuff. You can check it out <a href="http://medium.com/@sudhindrasajjal" target="_blank">here</a>.
-					</p>
-					<p>If you want to collaborate with me, drop me a message on any of my <a href="#">social media</a> accounts.</p>
-				</div>
-				<div class="col-md-offset-3 col-md-3 dsg-2">
-					<img src="images/me.jpg" class="img-circle" alt="" />
-				</div>
-					<div class="clearfix"></div>
-		</div>
-	</div>
-	<!-- branding -->
-	<!-- about-me -->
-	<div class="about-me" id="experience">
-		<div class="container">
-			<h2>I've worked at a few places.</h2>
-			<div class="clearfix"></div>
-		</div>
 
-	</div>
-	<div class="experience" style="background-color: #383838; overflow: hidden;">
-		<div class="container">
-			<center><h2><i class="fa fa-users fa-3x" style="color: #eee; margin-top: 30px;"></i></h2></center>
-			<div class="row">
-				<div class="col-md-6 text-center">
-					<div class="work-item">
-						<a href="http://media.net" target="_blank">
-							<img class="img-circle grow" src="images/wirecard.png" style="border: 3px solid #eee;"/>
-						</a>
-						<h3 style="color: #eee;">Wirecard<br> <small>Sep '19 - Present</small></h3>
-						<p class="lead"> Working as a Site Reliability Engineer at <b><a href="https://wirecard.com" target="_blank">Wirecard</a></b> in Munich, Germany. I am a part of the Issuing payments team.<br /> My major responsibility is to keep the infrastructure up and running, as well as automating processes and monitoring.<br />
-						I work under <b><a href="https://www.linkedin.com/in/kia-khosrojerdi-625304100/">Kia</a></b>.
-						</p>
-					</div>
-				</div>
-				<div class="col-md-6 text-center">
-					<div class="work-item">
-						<a href="http://media.net" target="_blank">
-							<img class="img-circle grow" src="images/directi.jpg" style="border: 3px solid #eee;"/>
-						</a>
-						<h3 style="color: #eee;">Directi<br> <small>Jan '17 - Aug '19</small></h3>
-						<p class="lead"> Working as a Site Reliability Engineer at <b><a href="http://media.net" target="_blank">Media.net</a></b> in Bangalore, India. I am a part of the Ad Exchange &amp; Ad-Quality team.<br /> My major responsibility is to decide how our applications and data centers are architect-ed and deployed. <br />
-						I work under <b><a href="https://www.linkedin.com/in/akashagrawal1/">Akash Agrawal</a></b> &amp; <b><a href="https://www.linkedin.com/in/harish-negi-8a002a2/">Harish Negi</a></b>.
-						</p>
-					</div>
-				</div>
-			</div>
-			<div class="row">
-				<div class="col-md-6 text-center">
-					<div class="work-item">
-						<a href="https://icecreamlabs.com/" target="_blank">
-							<img class="img-circle grow" src="images/ice.png" style="border: 3px solid #eee;"/>
-						</a>
-						<h3 style="color: #eee;">IceCream Labs<br> <small>May '16 - July '16</small></h3>
-						<p class="lead"> I completed my research internship here, broadly in Deep Learning, under <b><a target="_blank" href="http://dblp.uni-trier.de/pers/hd/k/Kulkarni:Kaustubh">Dr. Kaustubh Kulkarni</a></b>. We worked on object classification using Deep Neural nets.
-						</p>
-					</div>
-				</div>
-				<div class="col-md-6 text-center">
-					<div class="work-item">
-						<a href="https://grabon.in" target="_blank">
-							<img class="img-circle grow" src="images/grabon_logo.png" style="border: 3px solid #eee;"/>
-						</a>
-						<h3 style="color: #eee;">Grabon<br> <small>May '15 - July '15</small></h3>
-						<p class="lead"> I did my summer internship here, broadly in UI/UX Design, under <b><a href="https://www.researchgate.net/profile/Satwik_Govindarajula" target="_blank">Satvik Govindarajula</a></b>. I was part of the web development team working on the Grabon v2 website.
-						</p>
-					</div>
-				</div>
-			</div>
-			<div class="row">
-				<div class="col-md-4 text-center">
-					<div class="work-item">
-						<a href="http://www.bits-pilani.ac.in/goa/" target="_blank">
-							<img class="img-circle grow" src="images/bits.jpg" style="border: 3px solid #eee;"/>
-						</a>
-						<h3 style="color: #eee;">BITS-Pilani Goa<br> <small>Aug '13 - Aug '17</small></h3>
-						<p class="lead"> I graduated in Bachelors degree in Computer Science. I learnt, did research &amp; helped teach. Fell for a lot of beautiful beaches in Goa.
-						</p>
-					</div>
-				</div>
-				<div class="col-md-4 text-center">
-					<div class="work-item">
-						<a href="http://www.fiitjeehyderabad.com/HomePage.html" target="_blank">
-							<img class="img-circle grow" src="images/fiitjee.png" style="border: 3px solid #eee;"/>
-						</a>
-						<h3 style="color: #eee;">FIITJEE<br> <small>Apr '11 - May '13</small></h3>
-						<p class="lead"> I went to Pre-University college in Hyderabad for 2 years. I was taught to expertly juggle my school work &amp; engineering entrance exam preparations during these two years.
-						</p>
-					</div>
-				</div>
-				<div class="col-md-4 text-center">
-					<div class="work-item">
-						<a href="http://www.kvhospet.ac.in" target="_blank">
-							<img class="img-circle grow" src="images/kvslogo.jpg" style="border: 3px solid #eee;"/>
-						</a>
-						<h3 style="color: #eee;">Kendriya Vidyalaya<br> <small>June '08 - Apr '11</small></h3>
-						<p class="lead"> I went to school in TB Dam, Hospet for 3 years. Managed to ace the boards by studying a day before the exams. Been following the same funda ever since.
-						</p>
-					</div>
+<body>	
+	
+	<!-- Preloader -->
+	<div class="preloader">
+		<div class="centrize full-width">
+			<div class="vertical-center">
+				<div class="pre-inner">
+					<div class="load typing-load"><p>loading...</p></div>
+					<span class="typed-load"></span>
 				</div>
 			</div>
 		</div>
 	</div>
-	<div class="projects" id="projects">
-		<div class="container">
-			<h2>I <i class="fa fa-heart" aria-hidden="true" style="color:#fff;"></i> to code.</h2>
-			<div class="clearfix"></div>
-		</div>
-	</div>
-	<div class="project">
-		<div class="container">
-			<center><h2><i class="fa fa-code fa-3x" style="color: #383838; margin-top: 30px;"></i></h2></center>
-			<div class="row">
-				<div class="col-md-6 text-center">
-					<div class="work-item">
-						<a href="https://medium.com/@sudhindrasajjal/troll-searching-before-soul-searching-wetoo-c21c348a32f6" target="_blank">
-							<img class="img-circle grow" src="images/twitter.png"/>
-						</a>
-						<h3>#MeToo<br><small>Oct '17</small></h3>
-						<p class="lead" style="color: #383838;">My friend <b><a href="https://www.linkedin.com/in/aniketh-kulkarni-a50396117/">Aniketh Kulkarni</a></b> &amp; I worked on this project analysing the magnitude of the <b><a href="https://en.wikipedia.org/wiki/Me_Too_movement">#Metoo</a></b> hashtag which was trending on Twitter. We've penned down a <b><a href="https://medium.com/@sudhindrasajjal/troll-searching-before-soul-searching-wetoo-c21c348a32f6" target="_blank">blog post</a></b> about our findings.
-						</p>
-					</div>
-				</div>
-				<div class="col-md-6 text-center">
-					<div class="work-item">
-						<a href="https://medium.com/@sudhindrasajjal/load-balancing-your-web-application-with-haproxy-varnish-3456a3e5a171" target="_blank">
-							<img class="img-circle grow" src="images/hap.png"/>
-						</a>
-						<h3>Haproxy, Varnish &amp; a website<br><small>July '17</small></h3>
-						<p class="lead" style="color: #383838;">Built a front-end for hosting <b><a href="https://www.mediawiki.org/wiki/MediaWiki">MediaWiki</a></b> to ensure a much robust, reliable and a much quicker content delivery system. I built it using <b><a href="http://www.haproxy.org/">HAProxy</a></b> which is a reverse-proxy load balancer and <b><a href="https://varnish-cache.org/intro/index.html#intro">Varnish</a></b> which is a reverse-proxy cache. Both these tools are open source and offer great outcomes when it comes to performance, scaling, and resilience. You can check out the code and the blog <b><a href="https://medium.com/@sudhindrasajjal/load-balancing-your-web-application-with-haproxy-varnish-3456a3e5a171">here</a></b>.
-						</p>
-					</div>
-				</div>
-			</div>
-			<div class="row">
-				<div class="col-md-6 text-center">
-					<div class="work-item">
-						<a href="https://github.com/elastic/beats/pull/4221" target="_blank">
-							<img class="img-circle grow" src="images/elastic.png"/>
-						</a>
-						<h3>Packetbeat<br><small>Spring '17</small></h3>
-						<p class="lead" style="color: #383838;"> Built a module to parse <b><a href="https://graphiteapp.org/">Graphite</a></b> packets in <b><a href="https://www.elastic.co/products/beats/packetbeat">Packetbeat</a></b> which is a module of Beats developed by Elastic. This was part of a bigger Deep Packet Inspection project which was the topic of my <b>Bachelors Thesis</b>.
-						</p>
-					</div>
-				</div>
-				<div class="col-md-6 text-center">
-					<div class="work-item">
-						<a href="https://github.com/sudhindrasajjal/Extreme-Learning-Machines" target="_blank">
-							<img class="img-circle grow" src="images/rnn.png"/>
-						</a>
-						<h3>Stock Prediction using ELMs<br><small>Fall '16</small></h3>
-						<p class="lead" style="color: #383838;"> Worked along side <b><a href="http://universe.bits-pilani.ac.in/goa/jksahoo/profile" target="_blank">Dr. J.K. Sahoo</a></b> on a project to predict stock returns using <b><a href="https://en.wikipedia.org/wiki/Extreme_learning_machine">Extreme Learning Machine</a></b> (ELM) neural networks.
-						</p>
-					</div>
-				</div>		
-			</div>
-			<div class="row">
-				<div class="col-md-6 text-center">
-					<div class="work-item">
-						<a href="https://github.com/sudhindrasajjal/RHoK-Goa-Lily">
-							<img class="img-circle grow" src="images/lily.jpg"/>
-						</a>
-						<h3>Lily<br><small>Spring '16</small></h3>
-						<p class="lead" style="color: #383838;">Worked with <b><a target="_blank" href="https://www.linkedin.com/in/vishnu-ramachandran-a27b15b9/">Vishnu</a></b> to create an application to gauge the safety index of an area in Bangalore. It has been designed to benefit women in India by giving them real time information about any place in their city.<br />
-						We came up with a ranking mechanism to rank all the tweets and news stories based on their accuracy and authenticity while also keeping in mind the recency of events.
-						</p>
-					</div>
-				</div>
-				<div class="col-md-6 text-center">
-					<div class="work-item">
-						<a href="#">
-							<img class="img-circle grow" src="images/walmart.jpg"/>
-						</a>
-						<h3>Image Shelving<br><small>Summer '16</small></h3>
-						<p class="lead" style="color: #383838;"> Worked with <b><a target="_blank" href="http://dblp.uni-trier.de/pers/hd/k/Kulkarni:Kaustubh">Dr. Kaustubh Kulkarni</a></b> to build a Deep Neural Network inspired by the ILSVRC’14 <b><a href="https://arxiv.org/pdf/1409.4842.pdf">GoogleNet</a></b> to catalog products on <b>Walmart</b>. We also implemented the concept of <b><a href="http://cs231n.github.io/transfer-learning/">Transfer Learning</a></b> in Deep Convolutional Neural Networks.
-						</p>
-					</div>
-				</div>
-			</div>
-			<div class="row">
-				<div class="col-md-4 text-center">
-					<div class="work-item">
-						<a href="#" target="_blank">
-							<img class="img-circle grow" src="images/camera.jpg"/>
-						</a>
-						<h3>Surveillance using a RasPi<br><small>Spring '16</small></h3>
-						<p class="lead" style="color: #383838;"> Built a remote surveillance system using a <b><a href="https://www.raspberrypi.org/products/raspberry-pi-3-model-b/">RasPi 3</a></b> which detects intrusion &amp; also tracks the object once any motion is detected. It sends the video clip over e-mail to alert the user during any event.
-						</p>
-					</div>
-				</div>	
-				<div class="col-md-4 text-center">
-					<div class="work-item">
-						<a href="https://github.com/sudhindrasajjal/C-Beautifier" target="_blank">
-							<img class="img-circle grow" src="images/code.jpg"/>
-						</a>
-						<h3>Compilers<br><small>Spring '16</small></h3>
-						<p class="lead" style="color: #383838;"> Built a C language <b><a href="https://en.wikipedia.org/wiki/Lexical_analysis">beautifer</a></b> which performs lexical analysis &amp; syntax highlighting in requirement for the Compilers course.
-						</p>
-					</div>
-				</div>
-				<div class="col-md-4 text-center">
-					<div class="work-item">
-						<a href="#">
-							<img class="img-circle grow" src="images/elm.png"/>
-						</a>
-						<h3>ELMs<br><small>Spring '16</small></h3>
-						<p class="lead" style="color: #383838;"> Clustering the labeled and unlabeled data sets using Semi Supervised K-Means algorithm which will be used to cluster the documents extracted from the ELM (Extreme Learning Machine) feature space. The clusters will then be labeled using cluster assumption.
-						</p>
-					</div>
-				</div>
-			</div>
-			<div class="row">
-				<div class="col-md-4 text-center">
-					<div class="work-item">
-						<a href="https://github.com/sudhindrasajjal/Data-Mining---Bot-or-Human" target="_blank">
-							<img class="img-circle grow" src="images/dm.jpg"/>
-						</a>
-						<h3>Human or Bot<br><small>Fall '15</small></h3>
-						<p class="lead" style="color: #383838;"> A python program to identify bots &amp; human users on an online bidding site. The program uses <b><a href="https://en.wikipedia.org/wiki/Random_forest">Random Forests</a></b> &amp; <b><a href="https://en.wikipedia.org/wiki/Gradient_boosting">Gradient Boosting</a></b> to analyse bidding patterns &amp; purchased data to predict whether the user is a bot or a human.
-						</p>
-					</div>
-				</div>
-				<div class="col-md-4 text-center">
-					<div class="work-item">
-						<a href="https://github.com/sudhindrasajjal/Intel-8086" target="_blank">
-							<img class="img-circle grow" src="images/mup.jpg"/>
-						</a>
-						<h3>Intel 8086<br><small>Spring '15</small></h3>
-						<p class="lead" style="color: #383838;"> Built a Chocolate Vending machine using an <b><a href="https://en.wikipedia.org/wiki/Intel_8086">Intel 8086</a></b> microprocessor for the Microprocessors course.
-						</p>
-					</div>
-				</div>
-				<div class="col-md-4 text-center">
-					<div class="work-item">
-						<a href="https://github.com/sudhindrasajjal/Spree" target="_blank">
-							<img class="img-circle grow" src="images/spree.jpg"/>
-						</a>
-						<h3>SPREE app<br><small>Fall '14</small></h3>
-						<p class="lead" style="color: #383838;"> Built a java based web app which manages events, fixtures, scores &amp; notifies participants during the campus sports fest <b><a href="http://www.bits-spree.org/">SPREE</a></b>.
-						</p>
-					</div>
-				</div>
-			</div>
-			<div class="row">
-				<div class="col-md-12 text-center">
-					<div class="work-item">
-						<h3>Other Projects</h3>
-						<p class="lead" style="color: #383838;"> All my other projects can be found on <b><a href="https://github.com/sudhindrasajjal" target="_blank">Github</a></b>.
-						</p>
-					</div>
-				</div>
-			</div>
-		</div>
-	</div>
-	<div class="personal" id="personal">
-		<div class="container">
-			<h2>A little bit about me...</h2>
-					<div class="clearfix"></div>
-		</div>
-	</div>
-	<div class="person" style="background-color: #383838; overflow: hidden;">
+	
+	<!-- Container -->
 	<div class="container">
-		<center><h2><i class="fa fa-rocket fa-3x" style="color: #eee; margin-top: 30px;"></i></h2></center>
-			<div class="row">
-				<div class="col-md-4 text-center">
-					<div class="work-item">
-						<h3><i class="fa fa-bar-chart-o fa-2x" style="color: #eee;"></i></h3>
-						<p class="lead"> My <a href="https://en.wikipedia.org/wiki/Jung_Type_Indicator" target="_blank">Myers-Briggs Type Indicator(MBTI)</a> is <a href="https://www.16personalities.com/intp-personality">INTP</a> [Introverted iNtuitive Thinking Perceiving]. The people I supposedly share my personality type with are <a href="https://www.idrlabs.com/intp.php"> Albert Einstein</a>, <a href="https://www.idrlabs.com/intp.php">Larry Page</a> &amp; <a href="https://www.idrlabs.com/intp.php">Sergey Brin</a>. As of early '18, I test as an <a href="https://www.16personalities.com/entp-personality">ENTP</a>.
-						</p>
-					</div>
-				</div>
-				<div class="col-md-4 text-center">
-					<div class="work-item">
-						<h3><i class="fa fa-thumbs-up fa-2x" style="color: #eee;"></i></h3>
-						<p class="lead"> I enjoy playing badminton, hiking, tennis, cricket &amp; reading about tech. I also love watching movies. The <a href="https://en.wikipedia.org/wiki/The_Lord_of_the_Rings_(film_series)">LOTR</a> Trilogy, the <a href='https://en.wikipedia.org/wiki/Star_Wars_Trilogy'>Star Wars</a> Trilogy &amp; <a href="https://en.wikipedia.org/wiki/Back_to_the_Future_(franchise)">Back to the Future</a> Trilogy are my personal favourites. I've also spent many sleepless nights binge watching media content on Netflix.
-						</p>
-					</div>
-				</div>
-				<div class="col-md-4 text-center">
-					<div class="work-item">
-						<h3><i class="fa fa-pencil fa-2x" style="color: #eee;"></i></h3>
-						<p class="lead"> I'm also a freelance Graphic Designer &amp; Illustrator. I've worked with several startups designing websites &amp; made Illustrations for them. I also <a href="http://medium.com/@sudhindrasajjal" target="_blank">blog</a> about tech &amp; stuff in my free time. Do check it out.
-						</p>
-					</div>
+		
+		<!-- Header -->
+		<header>
+			<div class="head-top">
+				<a href="#" class="menu-btn"><span></span></a>
+				<div class="top-menu">
+					<ul>
+						<li><a href="experience.html" class="lnk">Experience</a></li>
+						<li><a href="projects.html" class="lnk">Projects</a></li>
+						<li><a target="_blank" href="https://medium.com/@sudhindrasajjal" class="lnk">Blog</a></li>
+						<li><a target="_blank" href="resume.pdf" class="lnk">Resume</a></li>
+					</ul>
 				</div>
 			</div>
-			<div class="row">
-				<div class="col-md-4 text-center">
-					<div class="work-item">
-						<h3><i class="fa fa-graduation-cap fa-2x" style="color: #eee;"></i></h3>
-						<p class="lead"> In my spare time I volunteer at <a href="www.nirmaan.org/chapters/goa" target="_blank">Nirmaan Organisation</a> Goa chapter. I was the Project Leader for one of their teaching projects <a href="http://nirmaan.org/programs.html">Teach Zari</a> from 2013-2015, &amp; also served as the PR Head from 2015-2016.
-						</p>
+		</header>
+		
+		<!-- Wrapper -->
+		<div class="wrapper">
+		
+			<!-- Started -->
+			<div class="section started">
+				<div class="centrize full-width">
+					<div class="vertical-center">
+						<div class="started-content">
+							<div class="h-title glitch-effect" data-text="I'm Sudhindra">I'm <span>Sudhindra</span></div>
+							<div class="h-subtitle typing-subtitle">
+								<p>Site Reliability Engineer.</p>
+								<p>Based in Munich, Germany.</p>
+								<p>From Bangalore, India.</p>
+							</div>
+							<span class="typed-subtitle"></span>
+						</div>
 					</div>
 				</div>
-				<div class="col-md-4 text-center">
-					<div class="work-item">
-						<h3><i class="fa fa-music fa-2x" style="color: #eee;"></i></h3>
-						<p class="lead"> I love listening to Bollywood Music. I'm a huge fan of <a href="http://www.mtvindia.com/cokestudio/" target="_blank">Coke Studio</a>. I also enjoy listening to Pop Rock &amp; Alternative Rock. My favourite artists are <a href="https://open.spotify.com/artist/6XyY86QOPPrYVGvF9ch6wz">Linkin Park</a>, <a href="https://open.spotify.com/artist/53XhwfbYqKCa1cC15pYq2q">Imagine Dragons</a> &amp; <a href="https://open.spotify.com/artist/04gDigrS5kc9YWfZHwBETP">Maroon 5</a>.
-						</p>
+				<a href="#" class="mouse_btn"><span class="ion ion-mouse"></span></a>
+			</div>
+
+			<!-- About -->
+			<div class="section about" id="section-resume">
+				<div class="content">
+					<div class="title">
+						<div class="title_inner">Status Quo</div>
 					</div>
-				</div>
-				<div class="col-md-4 text-center">
-					<div class="work-item">
-						<h3><i class="fa fa-plane fa-2x" style="color: #eee;"></i></h3>
-						<p class="lead"> I'm an aviation enthusiast &amp; I know all there is to know about planes. Hope to get a private pilot's licence <a href="http://www.dgca.nic.in/schedules/section-e.pdf">(PPL)</a> some time later in my life.
-						</p>
+					<div class="image">
+						<img src="images/me.png" alt="" />
 					</div>
+					<div class="desc">
+						<p>I am a <a target="_blank" href="https://landing.google.com/sre/">Site Reliability Engineer</a> at <a target="_blank" href="https://www.wirecard.com/">Wirecard</a> in Munich, Germany. I work in the <a target="_blank" href="https://www.worldpay.com/en-us/insights-hub/article/the-credit-card-lifecycle-explained/">Issuing</a> payments team.
+						I've completed my Bachelors Degree in <a target="_blank" href="https://en.wikipedia.org/wiki/Computer_science">Computer Science</a> at <a target="_blank" href="http://www.bits-pilani.ac.in/goa/">BITS-Pilani Goa, India</a>.
+						</p>
+						<p>
+							I've recently started blogging about tech & stuff. You can check it out <a target="_blank" href="http://medium.com/@sudhindrasajjal">here</a>.
+						</p>
+						<div class="bts"><a target="_blank" href="resume.pdf" class="btn" data-text="Resume">Resume</a></div>
+					</div>
+					<div class="clear"></div>
 				</div>
 			</div>
+		
 		</div>
+		
+		<!-- Footer -->
+		<footer>
+			<div class="soc">
+				<a target="_blank" href="https://github.com/sudhindrasajjal"><span class="ion ion-social-github"></span></a>
+				<a target="_blank" href="https://twitter.com/The_Lazy_Goan"><span class="ion ion-social-twitter"></span></a>
+				<a target="_blank" href="https://www.linkedin.com/in/sudhindrasajjal"><span class="ion ion-social-linkedin"></span></a>
+				<a target="_blank" href="https://www.instagram.com/sudhindrasajjal/"><span class="ion ion-social-instagram-outline"></span></a>
+				<a target="_blank" href="mailto:sudhindrasajjal@gmail.com"><span class="ion ion-email"></span></a>
+			</div>
+			<div class="copy">© 2020 Sudhindra Sajjal. All rights reserved.</div>
+			<div class="clr"></div>
+		</footer>
+		
+		<!-- Lines -->
+		<div class="line top"></div>
+		<div class="line bottom"></div>
+		<div class="line left"></div>
+		<div class="line right"></div>
+		
 	</div>
-	<div class="resume" id="resume">
-		<div class="container">
-			<h2>Take a look at my resumé...</h2>
-			<a href="resume/resume.pdf" class="btn btn-lg btn-default btn-special" target="_blank"> <i class="fa fa-eye fa-2x"></i> </a>
-					<div class="clearfix"></div>
-		</div>
-	</div>
-	<footer id="footer" class="footer">
-		<div class="container">
-			<div class="row">
-				<div class="col-md-4 col-md-offset-4 text-center">
-					<p class="lead" style="font-size: 18px;">Made with &nbsp;<i class="fa fa-heart" aria-hidden="true" style="color:#be1931; font-size: 18px;"></i><br/> &nbsp;Copyright &copy; Sudhindra Sajjal 2020</p>
-				</div>
-			</div>
-		</div>
-	</footer>
+	
+	<!-- jQuery Scripts -->
+    <script src="js/jquery.min.js"></script>
+	<script src="js/jquery.validate.js"></script>
+	<script src="js/typed.js"></script>
+	<script src="js/magnific-popup.js"></script>
+	<script src="js/imagesloaded.pkgd.js"></script>
+	<script src="js/isotope.pkgd.js"></script>
+	
+	<!-- Main Scripts -->
+	<script src="js/glitche-scripts.js"></script>
+	
 </body>
 </html>
