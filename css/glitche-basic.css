@@ -1,29 +1,3 @@
-/**
-*	Glitche - CV/Resume/Portfolio Template (HTML)
-*	Version: 1.3
-*	Author: beshleyua
-*	Author URL: http://themeforest.net/user/beshleyua
-*	Copyright © Cvio by beshleyua. All Rights Reserved.
-**/
-
-/* TABLE OF CONTENTS
-	1. Basic
-	2. Container
-	3. Columns
-	4. Typography
-	5. Links
-	6. Buttons
-	7. Preloader
-	8. Forms
-	9. Lists
-	10. Code
-	11. Tables
-	12. Alignment
-	13. Text Formating
-	14. Blockquote
-	15. Animations
-*/
-
 /* 1. Basic */
 html {
 	margin-right: 0!important;
@@ -796,3 +770,45 @@ blockquote {
 
 }
 
+/* Dark Mode toggle */
+.checkbox {
+  opacity: 0;
+  position: absolute;
+}
+
+.label {
+  width: 50px;
+  height: 26px;
+  background-color:#111;
+  display: flex;
+  border-radius:50px;
+  align-items: center;
+  justify-content: space-between;
+  padding: 5px;
+  position: relative;
+  transform: scale(1.5);
+}
+
+.ball {
+  width: 20px;
+  height: 20px;
+  background-color: white;
+  position: absolute;
+  top: 3px;
+  left: 3px;
+  border-radius: 50%;
+  transition: transform 0.2s linear;
+}
+
+/*  target the elemenent after the label*/
+.checkbox:checked + .label .ball{
+  transform: translateX(24px);
+}
+
+.fa-moon {
+  color: palevioletred;
+}
+
+.fa-sun {
+  color: yellow;
+}
