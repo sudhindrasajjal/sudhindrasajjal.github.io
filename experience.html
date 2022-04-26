@@ -55,7 +55,7 @@
 						<li><a target="_blank" href="index.html" class="lnk">Home</a></li>
 						<li class="active"><a href="experience.html" class="lnk">Experience</a></li>
 						<li><a target="_blank" href="resume.pdf" class="lnk">Resume</a></li>
-						<li><a class="lnk" href="#"><span class="dark-toggle" id="dark-toggle"></span></a></li>
+						<li><a class="lnk" href="#"><span class="dark-toggle" id="dark-toggle"><i class='fas fa-sun'></i></span></a></li>
 					</ul>
 				</div>
 			</div>
@@ -334,6 +334,15 @@
 	
 	<!-- Main Scripts -->
 	<script src="js/glitche-scripts.js"></script>
+	<script>
+		var fileref = document.createElement("link");
+		fileref.rel = "stylesheet";
+		fileref.type = "text/css";
+		fileref.href = "css/dark.css";
+		fileref.id   = "dark-mode";
+
+		document.getElementsByTagName("head")[0].appendChild(fileref);
+	</script>
 	
 </body>
 </html>
