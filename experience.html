@@ -305,6 +305,7 @@
 		<footer>
 			<div class="soc">
 				<a target="_blank" href="https://github.com/sudhindrasajjal"><span class="fab fa-github fa-lg"></span></a>
+				<a rel="me" target="_blank" href="https://mstdn.social/@dark_exodus"><span class="fab fa-mastodon fa-lg"></span></a>
 				<a target="_blank" href="https://twitter.com/The_Lazy_Goan"><span class="fab fa-twitter fa-lg"></span></a>
 				<a target="_blank" href="https://www.strava.com/athletes/68367409"><span class="fab fa-strava fa-lg"></span></a>
 				<a target="_blank" href="https://www.linkedin.com/in/sudhindrasajjal"><span class="fab fa-linkedin fa-lg"></span></a>
@@ -312,8 +313,12 @@
 				<a target="_blank" href="https://medium.com/@sudhindrasajjal"><span class="fab fa-medium fa-lg"></span></a>
 				<a target="_blank" href="mailto:me@sudhindrasajjal.com"><span class="far fa-envelope fa-lg"></span></a>
 			</div>
-			<div class="copy">© 2021 Sudhindra Sajjal. All rights reserved.</div>
+			<div class="copy" id="copyright"></div>
 			<div class="clr"></div>
+			<script>
+				const copy_message = `&copy; ${new Date().getFullYear()} Sudhindra Sajjal`;
+				document.getElementById('copyright').innerHTML = copy_message;
+			</script>
 		</footer>
 		
 		<!-- Lines -->
