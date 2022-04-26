@@ -1,18 +1,3 @@
-var fileref = document.createElement("link");
-fileref.rel = "stylesheet";
-fileref.type = "text/css";
-fileref.href = "css/dark.css";
-fileref.id   = "dark-mode";
-
-document.getElementsByTagName("head")[0].appendChild(fileref);
-
-document.getElementById("dark-toggle").innerHTML = "<i class='fas fa-sun'></i>";
-
-document.addEventListener('DOMContentLoaded',function()
-{
-	darkmode_init();
-});
-
 function darkmode_init(){
   let darkmodeSwitch = document.getElementById('dark-toggle');
   let darkmodeCookie = {
